@@ -1,0 +1,133 @@
+/* ----- UNIVERSAL STYLES ----- */
+
+* {
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+
+body {
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    margin: 0;
+}
+
+.content {
+    padding-top: 45px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+/* ----- HEADER ----- */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    opacity: 1;
+    background-color: black;
+}
+
+.logo {
+    display: inline-flex;
+    height: 50px;
+    width: auto;
+    margin: 9.5px 0 9.5px 10px;
+}
+
+.navbar {
+    margin: auto 10px auto 0;
+}
+
+.navbar li {
+    display: inline-flex;
+    text-decoration: underline;
+}
+
+.navbar a {
+    color: seashell;
+}
+
+/* ----- MISSION CONTENT ----- */
+
+.mission {
+    background-image: url('images/img-mission-background.jpg');
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-title {
+    background-color: black;
+    width: 100%;
+}
+
+/* ----- FEATURED CONTENT ----- */
+
+.featured-span {
+    margin-top: 50px; 
+}
+
+.img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-gallery img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+
+/* ----- LOCATIONS CONTENT ----- */
+
+.locations {
+    background-image: url('images/img-locations-background.jpg');
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.locationOne {
+    background-color: black;
+    margin-right: 40px;
+    width: 300px;
+    height: 250px;
+}
+
+.locationTwo {
+    background-color: black;
+    margin-right: 40px;
+    width: 300px;
+    height: 250px;
+}
+
+.locationThree {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+}
+
+/* ----- FOOTER ----- */
+
+.footer {
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
